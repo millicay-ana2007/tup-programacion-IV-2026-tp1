@@ -1,4 +1,4 @@
-s### 1. Calcular un rectángulo normal
+### 1. Calcular un rectángulo normal
 GET http://localhost:3000/api/rectangulos/calcular?base=10&altura=5
 
 ### 2. Calcular un cuadrado 
