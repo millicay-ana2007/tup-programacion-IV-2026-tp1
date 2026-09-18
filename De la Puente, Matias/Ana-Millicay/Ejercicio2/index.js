@@ -63,7 +63,7 @@ app.post('/api/alumnos', (req, res) => {
     });
 });
 
-// 2. : Listar todos los alumnos con sus datos derivados
+// 2. g: Listar todos los alumnos con sus datos derivados
 app.get('/api/alumnos', (req, res) => {
     const listaConDerivados = alumnos.map(a => {
         const estado = calcularEstadoAcademico(a.notas);
